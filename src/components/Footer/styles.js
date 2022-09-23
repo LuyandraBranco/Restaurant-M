@@ -88,6 +88,7 @@ export const Title = styled.h2`
 
     @media screen and (max-width: 680px) {
         margin-bottom: 0.5rem;
+        margin-left: 5%;
     }
 
 `;
@@ -95,6 +96,10 @@ export const Title = styled.h2`
 export const Description = styled.p`
 
     color: #dfdfdf;
+
+    @media screen and (max-width: 680px) {
+        margin-left: 5%;
+    }
     
 `;
 
@@ -110,6 +115,7 @@ export const Number= styled.h1`
 
     @media screen and (max-width: 680px) {
         font-size: 1rem;
+        margin-left: 5%;
     }
     @media screen and (max-width: 780px) {
         font-size: 1.4rem;
@@ -127,6 +133,7 @@ export const Input= styled.input`
 
     @media screen and (max-width: 680px) {
         width:90%;
+        margin-left: 5%;
     }
    
 `;
