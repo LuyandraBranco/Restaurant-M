@@ -6,13 +6,13 @@ import {Chefs} from "../Chefs";
 import {Blog} from "../Blog";
 import {Contact} from "../Contact";
 import {Footer} from "../Footer";
-import {HomeContainer} from './styles';
+import {ContainerHome} from "./styles";
  
  export const Home= () => {
  
    return (
-    <HomeContainer>
-
+    
+    <ContainerHome>
         <Banner/>
         <Dish/>
         <Video/>
@@ -21,12 +21,9 @@ import {HomeContainer} from './styles';
         <Blog/>
         <Contact/>
         <Footer/>
-
-    </HomeContainer>
+    </ContainerHome>
    
    )
  };
- 
- 
  
  

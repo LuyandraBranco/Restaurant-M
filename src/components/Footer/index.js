@@ -16,7 +16,7 @@ import {
     Span,
     RedesSociais,
     Rede,
-    Linke
+    Link
  }
  from './styles';
  import {FaArrowRight, FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaGithubSquare} from "react-icons/fa";
@@ -73,11 +73,11 @@ import {
 
             <RedesSociais>
 
-                <Rede><Linke to="https://www.facebook.com/luyandrafernandasoka.branco"><FaFacebook/></Linke></Rede>
-                <Rede><Linke to="https://twitter.com/Luyandra_Branco"><FaTwitter/></Linke></Rede>
-                <Rede><Linke to="https://www.instagram.com/luyandra_branco/"><FaInstagram/></Linke></Rede>
-                <Rede><Linke to="www.linkedin.com/in/luyandra-branco-494973206"><FaLinkedin/></Linke></Rede>
-                <Rede><Linke to="https://github.com/LuyandraBranco"><FaGithubSquare/></Linke></Rede>
+                <Rede><Link href="https://www.facebook.com/luyandrafernandasoka.branco"><FaFacebook/></Link></Rede>
+                <Rede><Link href="https://twitter.com/Luyandra_Branco"><FaTwitter/></Link></Rede>
+                <Rede><Link href="https://www.instagram.com/luyandra_branco/"><FaInstagram/></Link></Rede>
+                <Rede><Link href="www.linkedin.com/in/luyandra-branco-494973206"><FaLinkedin/></Link></Rede>
+                <Rede><Link href="https://github.com/LuyandraBranco"><FaGithubSquare/></Link></Rede>
                 
             </RedesSociais>
 

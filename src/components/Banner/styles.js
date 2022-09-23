@@ -5,6 +5,7 @@ export const BannerS = styled.section`
     width: 100%;
     height: 38rem;
     display: flex;
+    margin:0;
     flex-direction:column;
     background:url('https://preview.colorlib.com/theme/restaurant/img/header-bg.jpg');
     background-size:cover;

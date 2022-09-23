@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {Link} from "react-router-dom";
 
 export const Container = styled.section`
 
@@ -21,7 +20,7 @@ export const Container = styled.section`
 
 `;
 
-export const Linke= styled(Link)`
+export const Link= styled.a`
 
     text-decoration:none;
     color:#fff;

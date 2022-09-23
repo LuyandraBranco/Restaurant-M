@@ -3,7 +3,7 @@ import {
     TextArea,
     Title,
     Description,
-    Linke
+    Link
 
  }
  from './styles';
@@ -15,7 +15,7 @@ import {
 
      <Container>
 
-        <Linke to ="https://www.youtube.com/watch?v=0O2aH4XLbto"><AiOutlinePlayCircle/></Linke>
+        <Link href='https://www.youtube.com/watch?v=0O2aH4XLbto'><AiOutlinePlayCircle/></Link>
         
         <TextArea>
 

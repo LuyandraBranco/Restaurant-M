@@ -7,10 +7,6 @@ export const Navbar = styled.nav`
     display: flex;
     justify-content: space-between;
 
-    @media screen and (max-width: 680px) {
-        width:100%;   
-    }
-
 `;
 
 export const Figures = styled.div`
@@ -30,21 +26,6 @@ export const Logo= styled.img`
     @media screen and (max-width: 680px) {
        padding: 9px 9px;    
     }
-    
-`;
-
-export const Bars= styled.ul`
-
-    display:flex;
-    
-`;
-
-export const Icon= styled.li`
-
-    list-style:none;
-    font-size:1.2rem;
-    color:#fff;
-    cursor:pointer;
     
 `;
 
@@ -82,6 +63,7 @@ export const StyledBurger = styled.div`
     }
   }
 `;
+
 export const RightList= styled.ul`
 
   list-style: none;
@@ -115,3 +97,4 @@ export const Item= styled.li`
     font-weight:bold;
     
 `;
+
