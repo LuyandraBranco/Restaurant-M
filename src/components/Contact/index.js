@@ -26,7 +26,7 @@ import {
 
             <Input type="text" placeholder="Enter your name"/>
             <Input type="text" placeholder="Enter email address"/>
-            <TextArea type="text" placeholder="Messege"/>
+            <TextArea type="text"/>
             <Button> Send Message </Button>
 
             </Box> 

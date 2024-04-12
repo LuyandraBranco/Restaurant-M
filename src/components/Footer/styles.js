@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.footer`
+export const Container = styled.footer `
 
     width: 100%;
     height: 35rem;
@@ -15,7 +15,7 @@ export const Container = styled.footer`
     
 `;
 
-export const Cards = styled.div`
+export const Cards = styled.div `
 
     width: 80%;
     height:19rem;
@@ -38,7 +38,7 @@ export const Cards = styled.div`
 
 `;
 
-export const Card1 = styled.div`
+export const Card1 = styled.div `
 
     width: 26%;
     height:17rem;
@@ -54,7 +54,8 @@ export const Card1 = styled.div`
     
 `;
 
-export const Card2 = styled(Card1)`
+export const Card2 = styled(Card1)
+`
 
     width: 35%;
     height:17rem;
@@ -66,7 +67,8 @@ export const Card2 = styled(Card1)`
 
 `;
 
-export const Card3 = styled(Card1)`
+export const Card3 = styled(Card1)
+`
     
     width: 38%;
     height:17rem;
@@ -80,7 +82,7 @@ export const Card3 = styled(Card1)`
 
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h2 `
 
     color:#fff;
     margin-bottom: 1rem;
@@ -93,7 +95,7 @@ export const Title = styled.h2`
 
 `;
 
-export const Description = styled.p`
+export const Description = styled.p `
 
     color: #dfdfdf;
 
@@ -103,11 +105,11 @@ export const Description = styled.p`
     
 `;
 
-export const Numbers= styled.div`
+export const Numbers = styled.div `
 
 `;
 
-export const Number= styled.h1`
+export const Number = styled.h1 `
 
     color: #f42f2c;
     margin:0;
@@ -122,7 +124,7 @@ export const Number= styled.h1`
     }
 `;
 
-export const Input= styled.input`
+export const Input = styled.input `
 
     width:98%;
     height:2rem;
@@ -130,6 +132,7 @@ export const Input= styled.input`
     border-radius:4rem;
     color:#777;
     font-size: 1rem;
+    padding-left: 0.6rem;
 
     @media screen and (max-width: 680px) {
         width:90%;
@@ -138,13 +141,13 @@ export const Input= styled.input`
    
 `;
 
-export const Search= styled.div`
+export const Search = styled.div `
 
     display:flex;
 
 `;
 
-export const Button= styled.button`
+export const Button = styled.button `
 
     width: 18%;
     height:2.1rem;
@@ -163,7 +166,7 @@ export const Button= styled.button`
     
 `;
 
-export const FooterContact= styled.div`
+export const FooterContact = styled.div `
 
     width:100%;
     display: flex;
@@ -173,20 +176,20 @@ export const FooterContact= styled.div`
 
 `;
 
-export const Text= styled.p`
+export const Text = styled.p `
 
     color: #dfdfdf;
     font-size:1rem;
     text-align:center;
 `;
 
-export const Span= styled.span`
+export const Span = styled.span `
 
     color: #f42f2c;
 
 `;
 
-export const RedesSociais= styled.ul`
+export const RedesSociais = styled.ul `
 
     display:flex;
     list-style:none;
@@ -195,7 +198,7 @@ export const RedesSociais= styled.ul`
     
 `;
 
-export const Rede= styled.li`
+export const Rede = styled.li `
 
     color:#fff;
     margin-right: 0.4rem;
@@ -204,7 +207,7 @@ export const Rede= styled.li`
 
 `;
 
-export const Link= styled.a`
+export const Link = styled.a `
 
     text-decoration:none;
     color:#fff;
@@ -212,14 +215,3 @@ export const Link= styled.a`
     text-align:center;
 
 `;
-
-
-
-
-
-
-
-
- 
- 
- 

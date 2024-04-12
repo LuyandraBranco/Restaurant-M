@@ -49,20 +49,21 @@ export const StyledBurger = styled.div`
     height: 0.25rem;
     background-color: ${({ open }) => open ? '#ccc' : '#f42f2c'};
     border-radius: 10px;
-    transform-origin: 1px;
+    transform-origin: center;
     transition: all 0.3s linear;
+
     &:nth-child(1) {
-      transform: ${({ open }) => open ? 'rotate(38deg)' : 'rotate(0)'};
+      transform: ${({ open }) => open ? 'rotate(45deg) translate(6px, 6px)' : 'rotate(0)'};
     }
     &:nth-child(2) {
-      transform: ${({ open }) => open ? 'translateX(100%)' : 'translateX(0)'};
       opacity: ${({ open }) => open ? 0 : 1};
     }
     &:nth-child(3) {
-      transform: ${({ open }) => open ? 'rotate(-31deg)' : 'rotate(0)'};
+      transform: ${({ open }) => open ? 'rotate(-45deg) translate(6px, -6px)' : 'rotate(0)'};
     }
   }
 `;
+
 
 export const RightList= styled.ul`
 
@@ -95,6 +96,7 @@ export const Item= styled.li`
     color:#333;
     font-size:12px;
     font-weight:bold;
+    cursor: pointer;
     
 `;
 

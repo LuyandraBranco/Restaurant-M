@@ -14,7 +14,6 @@ import {
 
    return (
      <Navbar>
-
             <Figures>
                 <Logo src='../images/logo.png' alt="Logo"/>
              </Figures>
@@ -25,7 +24,6 @@ import {
               <div />
            </StyledBurger>
           <RightNav open={open}/>
-         
      </Navbar>
    )
  };

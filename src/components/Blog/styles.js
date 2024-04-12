@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section `
 
     width: 100%;
     height: 49rem;
@@ -8,15 +8,17 @@ export const Container = styled.section`
     flex-direction:column;
 
     @media screen and (max-width: 680px) {
-        height:114rem; 
+        height: auto;
+        margin-bottom: 2rem;
     }
     @media screen and (max-width: 780px) {
-        height:128rem;
+        height:auto;
+        padding-bottom: 2rem;
     }
 
 `;
 
-export const TextArea = styled.aside`
+export const TextArea = styled.aside `
     
     width:50%;
     margin:0 auto;
@@ -28,11 +30,10 @@ export const TextArea = styled.aside`
     margin-top:3%;
 
     @media screen and (max-width: 680px) {
-        
         width:100%;
         margin:0;
         margin-bottom:0.5%;
-        height:10rem; 
+        height:auto; 
     }
     @media screen and (max-width: 780px) {
         width:100%;
@@ -40,9 +41,9 @@ export const TextArea = styled.aside`
     }
 
    
-`; 
+`;
 
-export const Title = styled.h1`
+export const Title = styled.h1 `
 
     font-size:2.5rem;
     text-align:center;
@@ -52,19 +53,25 @@ export const Title = styled.h1`
     text-align:center;
 
     @media screen and (max-width: 680px) {
-        font-size:2rem;     
+        font-size:2rem; 
+        margin-bottom: 2rem;  
     }
     
-`; 
-export const Description = styled.p`
+`;
+export const Description = styled.p `
 
     text-align:center;
     margin:0;
     color:#777;
-    
-`; 
 
-export const Cards = styled.section`
+    @media screen and (max-width: 680px) {
+        text-align:center;
+        margin-bottom: 7rem;  
+    }
+    
+`;
+
+export const Cards = styled.section `
 
     width:100%;
     height:30rem;
@@ -73,11 +80,11 @@ export const Cards = styled.section`
     justify-content:center;
 
     @media screen and (max-width: 680px) {
-        width:90%;
-        margin:0 auto;
-        flex-direction:column;
-        height:100rem;
-        margin-top:0.5%;
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        height: auto;
+        margin-top: 0.5%;
     }
     @media screen and (max-width: 780px) {
         width:90%;
@@ -87,12 +94,4 @@ export const Cards = styled.section`
         margin-top:0.5%;
     }
    
-`; 
-
-
-
-
-
- 
- 
- 
+`;

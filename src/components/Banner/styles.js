@@ -106,6 +106,7 @@ export const Button = styled.button`
     border-radius:4rem;
     font-size:0.9rem;
     margin-top:0.8rem;
+    cursor: pointer;
 
     @media screen and (max-width: 680px) {
         height:4rem;

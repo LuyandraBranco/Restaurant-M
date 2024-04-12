@@ -102,6 +102,7 @@ export const Input = styled.input`
     border: 0.3px solid #dfdfdf;
     background:#fff;
     text-align:justify;
+    padding-left: 1rem;
 
     @media screen and (max-width: 680px) {
         width: 80%;
@@ -123,6 +124,7 @@ export const TextArea = styled.textarea`
     margin-bottom:2.5%;
     text-align:justify;
     border: 0.3px solid #dfdfdf;
+    padding-left: 1rem;
 
     @media screen and (max-width: 680px) {
         width: 80%;
@@ -146,7 +148,7 @@ export const Button = styled.button`
     font-size: 0.8rem;
     font-weight:600;
     border-radius: 5rem;
-    pointer: cursor;
+    cursor: pointer;
 
     @media screen and (max-width: 680px) {
         width: 45%;

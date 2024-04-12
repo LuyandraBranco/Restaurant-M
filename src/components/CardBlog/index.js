@@ -30,10 +30,8 @@ import {
             <Title>{title}</Title>
             <Description>{description}</Description>
             <Reactions>
-
               <IoIosHeartEmpty/>{likes}
               <IoChatbubbleOutline/>{comments}
-
             </Reactions>
        </TextArea>
        
