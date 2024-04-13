@@ -25,10 +25,6 @@ export const TextArea = styled.aside`
     align-itens:center;
     margin-top:2%;
 
-    @media screen and (max-width: 680px) {
-        margin-bottom:10%;
-        
-    }
 `; 
 
 export const Title = styled.h1`
