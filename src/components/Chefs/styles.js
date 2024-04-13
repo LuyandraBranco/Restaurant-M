@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-export const Container = styled.section`
+export const Container = styled.section `
 
     width: 100%;
-    height: 52rem;
+    height: 48rem;
     display: flex;
     flex-direction:column;
     background:#f9f9ff;
@@ -17,7 +17,7 @@ export const Container = styled.section`
 
 `;
 
-export const TextArea = styled.aside`
+export const TextArea = styled.aside `
     
     width:100%;
     height:12rem;
@@ -32,9 +32,9 @@ export const TextArea = styled.aside`
     }
   
  
-`; 
+`;
 
-export const Title = styled.h1`
+export const Title = styled.h1 `
 
     font-size:2.5rem;
     text-align:center;
@@ -47,21 +47,21 @@ export const Title = styled.h1`
         font-size:2rem;     
     }
    
-`; 
-export const Description = styled.p`
+`;
+export const Description = styled.p `
 
     text-align:center;
     margin:0;
     color:#777;
     
-`; 
+`;
 
-export const Cards = styled.section`
+export const Cards = styled.section `
 
     width:100%;
     height:30rem;
     display:flex;
-    margin-top:5%;
+    margin-top:1%;
     justify-content:center;
 
     @media screen and (max-width: 680px) {
@@ -75,12 +75,4 @@ export const Cards = styled.section`
         height:110rem;
     }
    
-`; 
-
-
-
-
-
- 
- 
- 
+`;
