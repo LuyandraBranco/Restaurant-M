@@ -22,5 +22,4 @@ Este projecto foi feito para medir e demonstrar as minhas habilidades de replica
 # O Projeto
 ![image](https://github.com/LuyandraBranco/Restaurant-M/assets/94245234/70b837a3-7c2f-4b56-a979-ea02a20958a0)
 
-
 Feito com <3 por Luyandra Branco
